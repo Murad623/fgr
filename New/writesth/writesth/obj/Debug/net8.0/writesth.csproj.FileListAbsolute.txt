@@ -1,0 +1,15 @@
+C:\Projects\Unity\gfghub\New\writesth\writesth\bin\Debug\net8.0\writesth.exe
+C:\Projects\Unity\gfghub\New\writesth\writesth\bin\Debug\net8.0\writesth.deps.json
+C:\Projects\Unity\gfghub\New\writesth\writesth\bin\Debug\net8.0\writesth.runtimeconfig.json
+C:\Projects\Unity\gfghub\New\writesth\writesth\bin\Debug\net8.0\writesth.dll
+C:\Projects\Unity\gfghub\New\writesth\writesth\bin\Debug\net8.0\writesth.pdb
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.AssemblyInfoInputs.cache
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.AssemblyInfo.cs
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.csproj.CoreCompileInputs.cache
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.sourcelink.json
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.dll
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\refint\writesth.dll
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.pdb
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\writesth.genruntimeconfig.cache
+C:\Projects\Unity\gfghub\New\writesth\writesth\obj\Debug\net8.0\ref\writesth.dll
