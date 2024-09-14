@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\",
+  "WorkspaceRootPath": "C:\\Projects\\Unity\\gfghub\\writesth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{969295B9-FBE1-4E03-9DFC-266E137DEFDA}|writesth\\writesth.csproj|c:\\projects\\unity\\gfghub\\new\\writesth\\writesth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{969295B9-FBE1-4E03-9DFC-266E137DEFDA}|writesth\\writesth.csproj|c:\\projects\\unity\\gfghub\\writesth\\writesth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{969295B9-FBE1-4E03-9DFC-266E137DEFDA}|writesth\\writesth.csproj|solutionrelative:writesth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\writesth\\Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\gfghub\\writesth\\writesth\\Program.cs",
               "RelativeDocumentMoniker": "writesth\\Program.cs",
-              "ToolTip": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\writesth\\Program.cs",
+              "ToolTip": "C:\\Projects\\Unity\\gfghub\\writesth\\writesth\\Program.cs",
               "RelativeToolTip": "writesth\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

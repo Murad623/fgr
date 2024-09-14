@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\writesth\\writesth.csproj",
+      "projectUniqueName": "C:\\Projects\\Unity\\gfghub\\writesth\\writesth\\writesth.csproj",
       "projectName": "writesth",
-      "projectPath": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\writesth\\writesth.csproj",
+      "projectPath": "C:\\Projects\\Unity\\gfghub\\writesth\\writesth\\writesth.csproj",
       "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Unity\\gfghub\\New\\writesth\\writesth\\obj\\",
+      "outputPath": "C:\\Projects\\Unity\\gfghub\\writesth\\writesth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
