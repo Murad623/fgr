@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Unity\\gfghub\\15sep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A52B10E-9BCD-4D3E-8732-9315668ABFCE}|15sep\\15sep.csproj|c:\\projects\\unity\\gfghub\\15sep\\15sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52B10E-9BCD-4D3E-8732-9315668ABFCE}|15sep\\15sep.csproj|solutionrelative:15sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\gfghub\\15sep\\15sep\\Program.cs",
+              "RelativeDocumentMoniker": "15sep\\Program.cs",
+              "ToolTip": "C:\\Projects\\Unity\\gfghub\\15sep\\15sep\\Program.cs",
+              "RelativeToolTip": "15sep\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:02:36.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
