@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\25sep.csproj": {}
+    "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\25sep.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\25sep.csproj": {
+    "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\25sep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\25sep.csproj",
+        "projectUniqueName": "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\25sep.csproj",
         "projectName": "25sep",
-        "projectPath": "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\25sep.csproj",
+        "projectPath": "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\25sep.csproj",
         "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\obj\\",
+        "outputPath": "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",

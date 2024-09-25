@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Unity\\gfghub\\25sep\\",
+  "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\25sep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37C86AA0-0681-4FD4-8BC9-C18F40A9EC2E}|25sep\\25sep.csproj|c:\\projects\\unity\\gfghub\\25sep\\25sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37C86AA0-0681-4FD4-8BC9-C18F40A9EC2E}|25sep\\25sep.csproj|c:\\projects\\c#\\gfghub\\25sep\\25sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37C86AA0-0681-4FD4-8BC9-C18F40A9EC2E}|25sep\\25sep.csproj|solutionrelative:25sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\Program.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\Program.cs",
               "RelativeDocumentMoniker": "25sep\\Program.cs",
-              "ToolTip": "C:\\Projects\\Unity\\gfghub\\25sep\\25sep\\Program.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\25sep\\25sep\\Program.cs",
               "RelativeToolTip": "25sep\\Program.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAGMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:35:04.22Z",
               "EditorCaption": ""
