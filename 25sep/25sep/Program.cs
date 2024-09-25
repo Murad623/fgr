@@ -1,6 +1,6 @@
 ﻿#region ArrOp
 int[] nums = { 34, 13, 3, 1, 8, 2, 15, 10, 0, 9 };
-void ArrOp(int[] nums)
+bool ArrOp(int[] nums)
 {
     int sum = 0;
     for (int i = 0; i < nums.Length; i++)
@@ -9,14 +9,14 @@ void ArrOp(int[] nums)
     }
     if (sum % 2 == 0)
     {
-        Console.WriteLine("Cüt");
+        return true;
     }
     else
     {
-        Console.WriteLine("Tək");
+        return false;
     }
 }
-ArrOp(nums);
+Console.WriteLine(ArrOp(nums));
 Console.WriteLine("--------------------------------------------------------\n");
 #endregion
 
@@ -43,16 +43,19 @@ bool IsPrime(int num)
     else
         return false;
 }
-a:
-Console.Write("Number pls : ");
-try
+while (true)
 {
-    int val = int.Parse(Console.ReadLine());
-    Console.WriteLine(IsPrime(val));
-}
-catch (Exception)
-{
-    goto a;
+    Console.Write("Number pls : ");
+    try
+    {
+        int val = int.Parse(Console.ReadLine());
+        Console.WriteLine(IsPrime(val));
+        break;
+    }
+    catch (Exception)
+    {
+        
+    }
 }
 Console.WriteLine("--------------------------------------------------------\n");
 #endregion
@@ -83,17 +86,19 @@ Console.WriteLine("--------------------------------------------------------\n");
 
 #region Age problem
 int[] ages = { 17, 21, 23, 25 };
-b:
-Console.Write("Age : ");
 int userAge;
-try
+while (true)
 {
-    userAge = int.Parse(Console.ReadLine());
-}
-catch (Exception)
-{
-    Console.WriteLine("Use the decimal numeral system, pls");
-    goto b;
+    Console.Write("Age : ");
+    try
+    {
+        userAge = int.Parse(Console.ReadLine());
+        break;
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("Use the decimal numeral system, pls");
+    }
 }
 bool sameAge = false;
 foreach (int age in ages)
