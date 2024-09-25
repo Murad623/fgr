@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\murad\\source\\repos\\20sep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5CD7B9-E820-424D-A305-EE4BA6936B95}|20sep\\20sep.csproj|c:\\users\\murad\\source\\repos\\20sep\\20sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5CD7B9-E820-424D-A305-EE4BA6936B95}|20sep\\20sep.csproj|solutionrelative:20sep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\source\\repos\\20sep\\20sep\\Program.cs",
+              "RelativeDocumentMoniker": "20sep\\Program.cs",
+              "ToolTip": "C:\\Users\\murad\\source\\repos\\20sep\\20sep\\Program.cs",
+              "RelativeToolTip": "20sep\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T15:26:31.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

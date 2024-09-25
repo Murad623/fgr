@@ -1,0 +1,14 @@
+C:\Users\murad\source\repos\21pes\21pes\bin\Debug\net8.0\21pes.exe
+C:\Users\murad\source\repos\21pes\21pes\bin\Debug\net8.0\21pes.deps.json
+C:\Users\murad\source\repos\21pes\21pes\bin\Debug\net8.0\21pes.runtimeconfig.json
+C:\Users\murad\source\repos\21pes\21pes\bin\Debug\net8.0\21pes.dll
+C:\Users\murad\source\repos\21pes\21pes\bin\Debug\net8.0\21pes.pdb
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.AssemblyInfoInputs.cache
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.AssemblyInfo.cs
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.csproj.CoreCompileInputs.cache
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.dll
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\refint\21pes.dll
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.pdb
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\21pes.genruntimeconfig.cache
+C:\Users\murad\source\repos\21pes\21pes\obj\Debug\net8.0\ref\21pes.dll

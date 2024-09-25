@@ -1,0 +1,15 @@
+C:\Projects\Unity\gfghub\25sep\25sep\bin\Debug\net8.0\25sep.exe
+C:\Projects\Unity\gfghub\25sep\25sep\bin\Debug\net8.0\25sep.deps.json
+C:\Projects\Unity\gfghub\25sep\25sep\bin\Debug\net8.0\25sep.runtimeconfig.json
+C:\Projects\Unity\gfghub\25sep\25sep\bin\Debug\net8.0\25sep.dll
+C:\Projects\Unity\gfghub\25sep\25sep\bin\Debug\net8.0\25sep.pdb
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.AssemblyInfoInputs.cache
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.AssemblyInfo.cs
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.csproj.CoreCompileInputs.cache
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.sourcelink.json
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.dll
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\refint\25sep.dll
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.pdb
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\25sep.genruntimeconfig.cache
+C:\Projects\Unity\gfghub\25sep\25sep\obj\Debug\net8.0\ref\25sep.dll
