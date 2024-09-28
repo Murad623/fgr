@@ -33,7 +33,7 @@ bool OddOrEven(int a)
 string CheckBool (bool a)
 {
     if (a)
-        return "Bəli";
+        return "Beli";
     else
         return "Xeyr";
 }
@@ -71,8 +71,59 @@ double Power(int a, int b)
 {
     return Math.Pow(a, b);
 }
+int GetNum(string txt)
+{
+    while (true)
+    {
+        try
+        {
+            Console.Write($"{txt} : ");
+            string text1 = Console.ReadLine();
+            return int.Parse(text1);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine($"Bu eded deyil");
+        }
+
+    }
+}
+float GetNumFl(string txt)
+{
+    while (true)
+    {
+        try
+        {
+            Console.Write($"{txt} : ");
+            string text1 = Console.ReadLine();
+            return float.Parse(text1);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine($"Bu eded deyil");
+        }
+
+    }
+}
+decimal GetNumDc(string txt)
+{
+    while (true)
+    {
+        try
+        {
+            Console.Write($"{txt} : ");
+            string text1 = Console.ReadLine();
+            return decimal.Parse(text1);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine($"Bu eded deyil");
+        }
+
+    }
+}
 bool loopstate = true;
-Console.WriteLine("Tasklar [1...9] kimi nömrələnmişdir. Proqramdan çıxış üçün isə 'e' yazın." );
+Console.WriteLine("Tasklar [1...9] kimi nömrelenmişdir. Proqramdan çıxış üçün ise 'e' yazın." );
 Console.WriteLine("\n-------------------start--------------------");
 while (loopstate)
 {
@@ -81,36 +132,30 @@ while (loopstate)
     switch (com)
     {
         case "1":
-            Console.WriteLine(Sum(17, 4));
+            int a = GetNum("Eded");
+            int b = GetNum("Eded");
+            Console.WriteLine(Sum(a, b));
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "2":
-            int[] arr = { 1324, 34, 1, 432, -1344 };
+            int l = GetNum("Arrayin uzunlugu");
+            int[] arr = new int[l];
+            Console.WriteLine("Arrayin deyerleri");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = GetNum($"Array[{i}] = ");
+            }
             Console.WriteLine(Avg(arr));
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "3":
-            Console.WriteLine(Round(20.5f));
+            Console.WriteLine("Eded yuvarlaqlasdirma\n");
+            Console.WriteLine(Round(GetNumFl("Eded")));
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "4":
-            Console.WriteLine("Tək Cüt");
-            int d = 0;
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Ədəd : ");
-                    string text1 = Console.ReadLine();
-                    d = int.Parse(text1);
-                    break;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine($"Bu ədəd deyil");
-                }
-
-            }
+            Console.WriteLine("Tek Cüt");
+            int d = GetNum("Eded");
             Console.WriteLine(OddOrEven(d));
             Console.WriteLine("\n--------------------------------------------");
             break;
@@ -127,64 +172,19 @@ while (loopstate)
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "7":
-            Console.WriteLine(DecimalPow(14.43m));
+            Console.WriteLine(DecimalPow(GetNumDc("Eded")));
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "8":
-            int c = 0;
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Ədəd : ");
-                    string text1 = Console.ReadLine();
-                    c = int.Parse(text1);
-                    break;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine($"Bu ədəd deyil");
-                }
-
-            }
-            Console.WriteLine(IsPrime(c) ? "Ədəd sadədir" : "Ədəd mürəkkəbdir");
+            int e = GetNum("Eded");
+            Console.WriteLine(IsPrime(e) ? "Eded sadedir" : "Eded mürekkebdir");
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "9":
-            Console.WriteLine("Qüvvətə yüksəltmə");
-            int a = 0;
-            int b = 0;
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Ədəd : ");
-                    string text1 = Console.ReadLine();
-                    a = int.Parse(text1);
-                    break;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine($"Bu ədəd deyil");
-                }
-                
-            }
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Ədəd : ");
-                    string text1 = Console.ReadLine();
-                    b = int.Parse(text1);
-                    break;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine($"Bu ədəd deyil");
-                }
-
-            }
-            Console.WriteLine(Power(a, b));
+            Console.WriteLine("Qüvvete yükseltme");
+            int f = GetNum("Eded");
+            int g = GetNum("Eded");
+            Console.WriteLine(Power(f, g));
             Console.WriteLine("\n--------------------------------------------");
             break;
         case "e":
@@ -192,7 +192,7 @@ while (loopstate)
             Console.WriteLine("\n-------------------end----------------------");
             break;
         default:
-            Console.WriteLine("Belə bir funksya yoxdur");
+            Console.WriteLine("Bele bir funksya yoxdur | funksyalar [1...9] ve 'e'-dir");
             break;
     }
 }
