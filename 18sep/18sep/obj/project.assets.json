@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Unity\\gfghub\\18sep\\18sep\\18sep.csproj",
+      "projectUniqueName": "C:\\Projects\\C#\\gfghub\\18sep\\18sep\\18sep.csproj",
       "projectName": "18sep",
-      "projectPath": "C:\\Projects\\Unity\\gfghub\\18sep\\18sep\\18sep.csproj",
+      "projectPath": "C:\\Projects\\C#\\gfghub\\18sep\\18sep\\18sep.csproj",
       "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Unity\\gfghub\\18sep\\18sep\\obj\\",
+      "outputPath": "C:\\Projects\\C#\\gfghub\\18sep\\18sep\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",

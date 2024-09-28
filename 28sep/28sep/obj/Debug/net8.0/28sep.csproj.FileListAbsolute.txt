@@ -1,0 +1,14 @@
+C:\Users\murad\source\repos\28sep\28sep\bin\Debug\net8.0\28sep.exe
+C:\Users\murad\source\repos\28sep\28sep\bin\Debug\net8.0\28sep.deps.json
+C:\Users\murad\source\repos\28sep\28sep\bin\Debug\net8.0\28sep.runtimeconfig.json
+C:\Users\murad\source\repos\28sep\28sep\bin\Debug\net8.0\28sep.dll
+C:\Users\murad\source\repos\28sep\28sep\bin\Debug\net8.0\28sep.pdb
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.AssemblyInfoInputs.cache
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.AssemblyInfo.cs
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.csproj.CoreCompileInputs.cache
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.dll
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\refint\28sep.dll
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.pdb
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\28sep.genruntimeconfig.cache
+C:\Users\murad\source\repos\28sep\28sep\obj\Debug\net8.0\ref\28sep.dll
