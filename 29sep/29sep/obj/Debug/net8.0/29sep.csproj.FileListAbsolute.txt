@@ -1,0 +1,15 @@
+C:\Projects\C#\gfghub\29sep\29sep\bin\Debug\net8.0\29sep.exe
+C:\Projects\C#\gfghub\29sep\29sep\bin\Debug\net8.0\29sep.deps.json
+C:\Projects\C#\gfghub\29sep\29sep\bin\Debug\net8.0\29sep.runtimeconfig.json
+C:\Projects\C#\gfghub\29sep\29sep\bin\Debug\net8.0\29sep.dll
+C:\Projects\C#\gfghub\29sep\29sep\bin\Debug\net8.0\29sep.pdb
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.AssemblyInfoInputs.cache
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.AssemblyInfo.cs
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.csproj.CoreCompileInputs.cache
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.sourcelink.json
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.dll
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\refint\29sep.dll
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.pdb
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\29sep.genruntimeconfig.cache
+C:\Projects\C#\gfghub\29sep\29sep\obj\Debug\net8.0\ref\29sep.dll

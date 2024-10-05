@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\5oct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6686D404-8EAB-432B-8CA0-B87708C38791}|5oct\\5oct.csproj|c:\\projects\\c#\\gfghub\\5oct\\5oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6686D404-8EAB-432B-8CA0-B87708C38791}|5oct\\5oct.csproj|solutionrelative:5oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\5oct\\5oct\\Program.cs",
+              "RelativeDocumentMoniker": "5oct\\Program.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\5oct\\5oct\\Program.cs",
+              "RelativeToolTip": "5oct\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T06:43:44.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
