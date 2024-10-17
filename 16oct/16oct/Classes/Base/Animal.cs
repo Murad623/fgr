@@ -1,12 +1,10 @@
-﻿using System.Xml.Linq;
-
-namespace _16oct.Classes.Base
+﻿namespace _16oct.Classes.Base
 {
     public class Animal
     {
         public string name = string.Empty;
         public int age;
-        public int day = 1;
+        public int day = 361;
         public int dayIncrement = 30;
         public int ageLimit;
         public int bloodType;
@@ -142,7 +140,8 @@ namespace _16oct.Classes.Base
             Console.Clear();
             Console.WriteLine($"" +
                 $"Today is Violet and Victor's birthday\n" +
-                $"Happy {age}{ArtOfNum(age)} birthday {name}" +
+                $"Happy {age}{ArtOfNum(age)} birthday Violet\n" +
+                $"Happy {age-1}{ArtOfNum(age-1)} birthday Victor" +
                 $"\r\n     _|_|_\r\n    |     |\r\n  +---------+\r\n  |         |\r\n+-------------+\r\n|             |\r\n+-------------+");
             if (dayIncrement>1)
             {
