@@ -129,9 +129,8 @@ namespace _16oct.Classes.Base
                 $"Gender : {gender}\n" +
                 $"-----------------\n");
         }
-        public void BirthDay()
+        public virtual void BirthDay()
         {
-            age++;
             if (age == ageLimit)
             {
                 ageLimit += 3;

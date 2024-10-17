@@ -39,5 +39,17 @@ namespace _16oct.Classes
             Meow();
             base.IsHungry(aName);
         }
+        public override void BirthDay()
+        {
+            age++;
+            if (age == ageLimit)
+            {
+                ageLimit += 3;
+                if (stomachLimit <= 20)
+                {
+                    stomachLimit++;
+                }
+            }
+        }
     }
 }

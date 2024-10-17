@@ -39,5 +39,10 @@ namespace _16oct.Classes
             Bark();
             base.IsHungry(aName);
         }
+        public override void BirthDay()
+        {
+            age++;
+            base.BirthDay();
+        }
     }
 }

@@ -4,7 +4,7 @@ bool working = true;
 Cat cat1 = new Cat("Victor", 2, "Male", 4);
 Dog dog1 = new Dog("Violet", 3, "Female", 5);
 Console.Clear();
-Console.WriteLine($"We give you 2 animals, a cat and a dog");
+Console.WriteLine($"We give you 2 pets, a cat and a dog");
 Console.WriteLine($"\n" +
     $"Cat \n------------------\n" +
     $"Name : {cat1.name}\n" +
