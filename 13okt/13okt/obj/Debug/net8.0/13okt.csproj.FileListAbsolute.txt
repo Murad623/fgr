@@ -1,0 +1,15 @@
+C:\Projects\C#\gfghub\13okt\13okt\bin\Debug\net8.0\13okt.exe
+C:\Projects\C#\gfghub\13okt\13okt\bin\Debug\net8.0\13okt.deps.json
+C:\Projects\C#\gfghub\13okt\13okt\bin\Debug\net8.0\13okt.runtimeconfig.json
+C:\Projects\C#\gfghub\13okt\13okt\bin\Debug\net8.0\13okt.dll
+C:\Projects\C#\gfghub\13okt\13okt\bin\Debug\net8.0\13okt.pdb
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.AssemblyInfoInputs.cache
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.AssemblyInfo.cs
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.csproj.CoreCompileInputs.cache
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.sourcelink.json
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.dll
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\refint\13okt.dll
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.pdb
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\13okt.genruntimeconfig.cache
+C:\Projects\C#\gfghub\13okt\13okt\obj\Debug\net8.0\ref\13okt.dll

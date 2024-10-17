@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\13okt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\classes\\base\\alive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\classes\\base\\alive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\classes\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\classes\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\classes\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\classes\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|c:\\projects\\c#\\gfghub\\13okt\\13okt\\classes\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C81263-EBCB-47EF-B734-BE406D000775}|13okt\\13okt.csproj|solutionrelative:13okt\\classes\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mushroom.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Mushroom.cs",
+              "RelativeDocumentMoniker": "13okt\\Classes\\Mushroom.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Mushroom.cs",
+              "RelativeToolTip": "13okt\\Classes\\Mushroom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:21:23.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Plant.cs",
+              "RelativeDocumentMoniker": "13okt\\Classes\\Plant.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Plant.cs",
+              "RelativeToolTip": "13okt\\Classes\\Plant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:17:51.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Animal.cs",
+              "RelativeDocumentMoniker": "13okt\\Classes\\Animal.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Animal.cs",
+              "RelativeToolTip": "13okt\\Classes\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:14:33.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Human.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Human.cs",
+              "RelativeDocumentMoniker": "13okt\\Classes\\Human.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Human.cs",
+              "RelativeToolTip": "13okt\\Classes\\Human.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:46:59.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alive.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Base\\Alive.cs",
+              "RelativeDocumentMoniker": "13okt\\Classes\\Base\\Alive.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Classes\\Base\\Alive.cs",
+              "RelativeToolTip": "13okt\\Classes\\Base\\Alive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:39:21.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Program.cs",
+              "RelativeDocumentMoniker": "13okt\\Program.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\13okt\\13okt\\Program.cs",
+              "RelativeToolTip": "13okt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:37:20.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
