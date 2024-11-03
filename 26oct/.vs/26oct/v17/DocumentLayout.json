@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\26oct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|c:\\projects\\c#\\gfghub\\26oct\\26oct\\classes\\recteangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|solutionrelative:26oct\\classes\\recteangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|c:\\projects\\c#\\gfghub\\26oct\\26oct\\classes\\base\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|solutionrelative:26oct\\classes\\base\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|c:\\projects\\c#\\gfghub\\26oct\\26oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DF3B87-057A-4D08-94B4-D2C6A2988A03}|26oct\\26oct.csproj|solutionrelative:26oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recteangle.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Classes\\Recteangle.cs",
+              "RelativeDocumentMoniker": "26oct\\Classes\\Recteangle.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Classes\\Recteangle.cs",
+              "RelativeToolTip": "26oct\\Classes\\Recteangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:35:56.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Classes\\Base\\Shape.cs",
+              "RelativeDocumentMoniker": "26oct\\Classes\\Base\\Shape.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Classes\\Base\\Shape.cs",
+              "RelativeToolTip": "26oct\\Classes\\Base\\Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:17:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Program.cs",
+              "RelativeDocumentMoniker": "26oct\\Program.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\26oct\\26oct\\Program.cs",
+              "RelativeToolTip": "26oct\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:13:52.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

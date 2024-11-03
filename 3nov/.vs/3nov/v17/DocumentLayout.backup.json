@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\3nov\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\interfaces\\imove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\interfaces\\imove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Classes\\Player.cs",
+              "RelativeDocumentMoniker": "3nov\\Classes\\Player.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Classes\\Player.cs",
+              "RelativeToolTip": "3nov\\Classes\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:45:38.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "iMove.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Interfaces\\iMove.cs",
+              "RelativeDocumentMoniker": "3nov\\Interfaces\\iMove.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Interfaces\\iMove.cs",
+              "RelativeToolTip": "3nov\\Interfaces\\iMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:37:52.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Program.cs",
+              "RelativeDocumentMoniker": "3nov\\Program.cs",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Program.cs",
+              "RelativeToolTip": "3nov\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:36:34.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
