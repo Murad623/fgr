@@ -111,7 +111,7 @@ namespace _18oct.Services
                         opponent.SetNPC(true);
                         opponent.SetRace(racesChar[cRace]);
                         if (aggressive && !aggressivePlus) gameService.PrintDeleyed($"{opponent.Type()} :\n - AAAAAAAAAAAAAAAAAAAAGGGGGGGGGHhhhhhhhhh\n - Hey! Are you even listening?\n - I've been talking to you this whole time, and you're just standing there!\n - What's the matter with you?\n - Say something!\n - Don't just ignore me!\n - Seriously, how hard is it to respond?\n - I'm right here!\n - I'll kill you !!!", 20);
-                        for (int i = 0; i < player.Level; i++) opponent.Levelup();
+                        for (int i = 0; i < player.Level; i++) opponent.Levelup();  // => Opponent level = Player level
                         if (!duelService.Duel(player, opponent, aggressive))
                         {
                             if (aggressive) return false;

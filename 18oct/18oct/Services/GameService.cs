@@ -219,13 +219,13 @@ namespace _18oct.Services
             }
             else
             {
-                for (int i = 0; i < character.Xp.ToString().Length + ("Xp : ").Length + 2; i++)
+                for (int i = 0; i < character.Xp.ToString().Length + ("Xp : /").Length + 2 + character.XpLimit.ToString().Length; i++)
                 {
                     Console.Write("-");
                 }
             }
             Console.Write("+\n");
-            Console.WriteLine($"| {character.Name} | Health : {character.Health} | Race : {character.Race} | Type : {character.Type()} | Attack Power : {character.AttackPower} | Level : {character.Level} " + (character.NPC ? "| NPC |" : $"| Xp : {character.Xp} |"));
+            Console.WriteLine($"| {character.Name} | Health : {character.Health} | Race : {character.Race} | Type : {character.Type()} | Attack Power : {character.AttackPower} | Level : {character.Level} " + (character.NPC ? "| NPC |" : $"| Xp : {character.Xp}/{character.XpLimit} |"));
             Console.Write("+");
             for (int i = 0; i < character.Name.Length + 2; i++)
             {
@@ -266,7 +266,7 @@ namespace _18oct.Services
             }
             else
             {
-                for (int i = 0; i < character.Xp.ToString().Length + ("Xp : ").Length + 2; i++)
+                for (int i = 0; i < character.Xp.ToString().Length + ("Xp : /").Length + 2 + character.XpLimit.ToString().Length; i++)
                 {
                     Console.Write("-");
                 }

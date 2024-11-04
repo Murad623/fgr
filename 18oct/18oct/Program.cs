@@ -42,12 +42,16 @@ while (working) // Main
     }
     if (gMode)
     {
+        working = true;
         while (working)
         {
             bool tResult = tournamentMode.StartTournament(player);
+            Console.Clear();
+            gameService.PrintCaracterDetails(player);
             gameService.PrintDeleyed("ESC - Quit | "+(tResult? "T - Try Again":"P - New Game Plus"));
             // try again - turnuvaya neçə levelnən girilmişdisə oynan başlatır
             // NGP - turnuvanı bitirdiyin levelnən başlıyırsan
+            break;
         }
     }
     else campaignMode.StartCampaign(player);
