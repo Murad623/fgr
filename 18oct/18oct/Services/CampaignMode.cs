@@ -6,11 +6,6 @@ namespace _18oct.Services
     {
         GameService gameService = new GameService();
         DuelService duelService = new DuelService();
-        ////public Character[] charachterTypes = { new Mage() }; // char test
-        //public Character[] charachterTypes = { new Worrior(), new Archer(), new Mage() };
-        //public char[] racesChar = { 'H', 'G', 'O', 'E', 'D' };
-        //public string[] races = { "Human", "Goblin", "Orc", "Elf", "Dwarf" };
-
         public bool StartCampaign(Character player)
         {
             Console.Clear();
@@ -220,7 +215,7 @@ namespace _18oct.Services
                     }
                     else
                     {
-                        gameService.PrintDeleyed("The village chief : ");
+                        gameService.PrintDeleyed("The village chief :");
                         gameService.PrintDeleyed(" - There is a gang hiding in the forest, and they are preparing to attack to take over the village.");
                         gameService.PrintDeleyed(" - If we act before they do, we have a chance to win.");
                         gameService.PrintDeleyed("H - Help them | N - Never mind");
@@ -264,6 +259,13 @@ namespace _18oct.Services
                             oppName = gameService.chooseRandomName(opponentNames, usedNames);
                             opponent.Name = "";
                             for (int i = 0; i < oppName.Length; i++) opponent.Name += "?";
+                            opponent.SetNPC(true);
+                            opponent.SetRace('H');
+                            if (!duelService.Duel(player, opponent, true)) return false;
+                            gameService.PrintDeleyed("You and your allies killed all the enemies.");
+                            gameService.PrintDeleyed("The village chief :");
+                            gameService.PrintDeleyed(" - ");
+                            gameService.PrintDeleyed("Your allies are attacking you.");
                         }
                     }
                 }

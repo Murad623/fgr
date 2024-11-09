@@ -11,6 +11,7 @@ namespace _18oct.Services.BaseService
         public string[] races = { "Human", "Goblin", "Orc", "Elf", "Dwarf" };
         public string[] opponentNames = { "Kamil", "Mikayil", "Cavid", "Shamil", "Ferid", "Musa", "Pasha", "Shahin", "Arzu", "Leman", "Aydan", "Fidan", "Aysel", "Aygun", "Leyla", "Lale" };
         //public string[] opponentNames = { "Kamil", "Mikayil", "Cavid", "Shamil" }; // test
+        //public string[] opponentNames = { "Kamil" }; // test 2
         public string[] usedNames;
         public GameVarables()
         {

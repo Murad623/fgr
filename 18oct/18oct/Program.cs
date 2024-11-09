@@ -16,9 +16,9 @@ string[] messages = { "Hi Adventurer", "Welcome to 'Lumena', our magical world",
 //string[] usedNames = { };
 for (int i = 0; i < messages.Length; i++) gameService.PrintDeleyed(messages[i]);
 gameService.WaitPress(true);
+player = gameService.CharacterCreator();
 while (working) // Main
 {
-    player = gameService.CharacterCreator();
     gameService.PrintDeleyed("Choose game mode :");
     gameService.PrintDeleyed("T - Tournament | C - Campaign");
     bool gMode = false;
@@ -45,13 +45,28 @@ while (working) // Main
         working = true;
         while (working)
         {
-            bool tResult = tournamentMode.StartTournament(player);
+            bool tResult = tournamentMode.StartTournament(ref player);
             Console.Clear();
             gameService.PrintCaracterDetails(player);
-            gameService.PrintDeleyed("ESC - Quit | "+(tResult? "T - Try Again":"P - New Game Plus"));
+            gameService.PrintDeleyed("ESC - Quit | "+(tResult? "P - New Game Plus" : "T - Try Again"));
             // try again - turnuvaya neçə levelnən girilmişdisə oynan başlatır
             // NGP - turnuvanı bitirdiyin levelnən başlıyırsan
-            break;
+            bool working2 = true;
+            ConsoleKeyInfo key;
+            while (working2)
+            {
+                key = Console.ReadKey(true);
+                if ((tResult && key.Key == ConsoleKey.P) || (!tResult && key.Key == ConsoleKey.T))
+                {
+                    working = true;
+                    working2 = false;
+                }
+                else if (key.Key == ConsoleKey.Escape)
+                {
+                    working = false;
+                    working2 = false;
+                }
+            }
         }
     }
     else campaignMode.StartCampaign(player);
