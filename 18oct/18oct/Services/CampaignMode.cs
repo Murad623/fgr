@@ -1,23 +1,29 @@
-﻿using _18oct.Classes.Base;
+﻿using _18oct.Classes;
+using _18oct.Classes.Base;
 using _18oct.Services.BaseService;
 namespace _18oct.Services
 {
-    internal class CampaignMode : GameVarables
+    internal class CampaignMode
     {
         GameService gameService = new GameService();
         DuelService duelService = new DuelService();
+        GameVarables gVars = new GameVarables();
         public bool StartCampaign(Character player)
         {
             Console.Clear();
             #region Chapter 1 : Start to journey
             gameService.PrintCaracterDetails(player);
             Random random = new Random();
-            int cType = random.Next(charachterTypes.Length);
-            int cRace = random.Next(0, races.Length);
-            /*    Test
-            int ctype = 1;
-            int crace = 3;*/
-            string oppName = gameService.chooseRandomName(opponentNames,usedNames);
+            //int cType = random.Next(gVars.charachterTypes.Length);
+            //int cRace = random.Next(0, gVars.races.Length);
+            ///*    Test
+            //int ctype = 1;
+            //int crace = 3;*/
+            //string oppName = gameService.chooseRandomName(gVars.opponentNames, gVars.usedNames);
+
+            // Random character generate -->
+            Character opponent = gameService.RCG(gVars);
+            // <--
             bool aggressive = false;
             bool aggressivePlus = false;
             bool duelOffered = false;
@@ -25,12 +31,12 @@ namespace _18oct.Services
             bool run = false;
             bool working = true;
             gameService.PrintDeleyed("You are walking in the forest.");
-            gameService.PrintDeleyed($"You see a {charachterTypes[cType].Type()} {races[cRace]} in your path.");
+            gameService.PrintDeleyed($"You see a {opponent.Type()} {opponent.Race} in your path.");
             gameService.WaitPress(true);
             Console.Clear();
-            if ((player.Race != "Orc" && races[cRace] != "Orc") || player.Race == races[cRace])
+            if ((player.Race != "Orc" && opponent.Race != "Orc") || player.Race == opponent.Race)
             {
-                gameService.PrintDeleyed($"{races[cRace]} :\n - Hey, who are you ?");
+                gameService.PrintDeleyed($"{opponent.Race} :\n - Hey, who are you ?");
                 gameService.PrintDeleyed($"S - Say your name. | D - Don't say anything. | A - Give an aggressive answer. | R - Run");
                 while (working)
                 {
@@ -64,10 +70,10 @@ namespace _18oct.Services
                 if (!run)
                 {
                     string[] trainingTexts = { "Do you want to do some fight training with me", "Would you like to train for a fight with me", "How about doing some combat practice with me", "Would you be interested in doing fight training with me" };
-                    if (duelOffered) //Duel təklifi var
+                    if (duelOffered) //Duel offer
                     {
-                        if (!aggressive) gameService.PrintDeleyed($"{races[cRace]} :\n - I'm {oppName}");
-                        gameService.PrintDeleyed((!nameGived ? races[cRace] : oppName) + $" :\n - " + (aggressive ? trainingTexts[random.Next(trainingTexts.Length)] : (player.Name + ", " + trainingTexts[random.Next(trainingTexts.Length)].ToLower())) + " ?");
+                        if (!aggressive) gameService.PrintDeleyed($"{opponent.Race} :\n - I'm {opponent.Name}");
+                        gameService.PrintDeleyed((!nameGived ? opponent.Race : opponent.Name) + $" :\n - " + (aggressive ? trainingTexts[random.Next(trainingTexts.Length)] : (player.Name + ", " + trainingTexts[random.Next(trainingTexts.Length)].ToLower())) + " ?");
                         gameService.PrintDeleyed($"A - Accept | R - Reject | D - Don't say anything");
                         working = true;
                         while (working)
@@ -94,24 +100,18 @@ namespace _18oct.Services
                             }
                         }
                     }
-                    if (duelOffered || aggressive) // duel var
+                    if (duelOffered || aggressive) // Duel
                     {
-                        Character opponent = charachterTypes[cType];
-                        if (nameGived) opponent.Name = oppName;
-                        else
-                        {
-                            opponent.Name = "";
-                            for (int i = 0; i < oppName.Length; i++) opponent.Name += "?";
-                        }
-                        opponent.SetNPC(true);
-                        opponent.SetRace(racesChar[cRace]);
+                        // Character anonymization -->
+                        if (!nameGived) gameService.CharAnonymizator(ref opponent);
+                        // <--
                         if (aggressive && !aggressivePlus) gameService.PrintDeleyed($"{opponent.Type()} :\n - AAAAAAAAAAAAAAAAAAAAGGGGGGGGGHhhhhhhhhh\n - Hey! Are you even listening?\n - I've been talking to you this whole time, and you're just standing there!\n - What's the matter with you?\n - Say something!\n - Don't just ignore me!\n - Seriously, how hard is it to respond?\n - I'm right here!\n - I'll kill you !!!", 20);
-                        for (int i = 0; i < player.Level; i++) opponent.Levelup();  // => Opponent level = Player level
+                        for (int i = 0; i < player.Level; i++) opponent.Levelup();  // => Opponent level up until Player's level
                         if (!duelService.Duel(player, opponent, aggressive))
                         {
                             if (aggressive) return false;
                             Console.Clear();
-                            gameService.PrintDeleyed((!nameGived ? charachterTypes[cType].Type() : oppName) + " :");
+                            gameService.PrintDeleyed((!nameGived ? opponent.Type() : opponent.Name) + " :");
                             gameService.PrintDeleyed(" - Don't worry " + (nameGived ? player.Name : "Adventurer"));
                             gameService.PrintDeleyed(" - I'm giving you 1 Xp.");
                             gameService.PrintDeleyed(" - Take it pleace.");
@@ -121,7 +121,7 @@ namespace _18oct.Services
                     }
                     else
                     {
-                        gameService.PrintDeleyed((nameGived ? oppName : races[cRace]) + "\n - Ok, " + (nameGived ? player.Name : "Adventurer") + ", good luck on your journey.");
+                        gameService.PrintDeleyed((nameGived ? opponent.Name : opponent.Race) + "\n - Ok, " + (nameGived ? player.Name : "Adventurer") + ", good luck on your journey.");
                         gameService.WaitPress(true);
                     }
                 }
@@ -130,7 +130,7 @@ namespace _18oct.Services
                     gameService.PrintDeleyed("You :");
                     gameService.PrintDeleyed(" - Aaa Aaaa AAaaaaAaaaaa");
                     gameService.PrintDeleyed(" - AAaaaAaAaaaaAaa AaaaAAaaAaa");
-                    gameService.PrintDeleyed($"{races[cRace]} :");
+                    gameService.PrintDeleyed($"{opponent.Race} :");
                     gameService.PrintDeleyed(" - Why are you running ?");
                     string[] wayr = { " - WHY", " ARE", " YOU", " RUNNING ?" };
                     gameService.PrintDeleyed(null, 400, true, wayr);
@@ -139,16 +139,10 @@ namespace _18oct.Services
             }
             else
             {
-                gameService.PrintDeleyed($"The {races[cRace].ToLower()} started attacking you");
-                Character opponent = charachterTypes[cType];
-                if (nameGived) opponent.Name = oppName;
-                else
-                {
-                    opponent.Name = "";
-                    for (int i = 0; i < oppName.Length; i++) opponent.Name += "?";
-                }
-                opponent.SetNPC(true);
-                opponent.SetRace(racesChar[cRace]);
+                gameService.PrintDeleyed($"The {opponent.Race.ToLower()} started attacking you");
+                // Character anonymization -->
+                gameService.CharAnonymizator(ref opponent);
+                // <--
                 duelService.Duel(player, opponent, true);
             }
             Console.Clear();
@@ -243,29 +237,25 @@ namespace _18oct.Services
                         {
                             gameService.PrintDeleyed("You joined the villagers, and you all started heading toward the forest.");
                             gameService.PrintDeleyed("You encountered the gang in a valley between the forest and the village, and the battle began.");
-                            cType = random.Next(charachterTypes.Length);
-                            Character opponent = charachterTypes[cType];
-                            oppName = gameService.chooseRandomName(opponentNames,usedNames);
-                            opponent.Name = "";
-                            for (int i = 0; i < oppName.Length; i++) opponent.Name += "?";
-                            opponent.SetNPC(true);
-                            opponent.SetRace('H');
+                            // Random character generate and anonymization -->
+                            opponent = gameService.RCG(gVars,'H');
+                            gameService.CharAnonymizator(ref opponent);
+                            // <--
                             if (!duelService.Duel(player, opponent, true)) return false;
                             Console.WriteLine(" __    __   ________ ___     ___ ____________\r\n|  \\  |  | |   ____/ \\  \\   /  / \\__      __/\r\n|   \\ |  | |  |       \\  \\_/  /     \\    /\r\n|    \\|  | |  |__      \\     /       |  |\r\n|        | |   __|      |   |        |  |\r\n|  |\\    | |  |        /  _  \\       |  |\r\n|  | \\   | |  |____   /  / \\  \\      |  |\r\n|__|  \\__| |_______\\ /__/   \\__\\    /____\\");
                             Console.SetCursorPosition(0, Console.WindowHeight);
                             gameService.WaitPress(true);
-                            cType = random.Next(charachterTypes.Length);
-                            opponent = charachterTypes[cType];
-                            oppName = gameService.chooseRandomName(opponentNames, usedNames);
-                            opponent.Name = "";
-                            for (int i = 0; i < oppName.Length; i++) opponent.Name += "?";
-                            opponent.SetNPC(true);
-                            opponent.SetRace('H');
+                            // Random character generate and anonymization -->
+                            opponent = gameService.RCG(gVars,'H');
+                            gameService.CharAnonymizator(ref opponent);
+                            // <--
                             if (!duelService.Duel(player, opponent, true)) return false;
                             gameService.PrintDeleyed("You and your allies killed all the enemies.");
                             gameService.PrintDeleyed("The village chief :");
-                            gameService.PrintDeleyed(" - ");
-                            gameService.PrintDeleyed("Your allies are attacking you.");
+                            gameService.PrintDeleyed(" - Thanks for help. But now you must die, couse of saw a lot of things.");
+                            //gameService.PrintDeleyed("Your allies are attacking you.");
+                            
+
                         }
                     }
                 }

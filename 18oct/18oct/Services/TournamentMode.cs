@@ -4,16 +4,17 @@ using _18oct.Services.BaseService;
 using System.ComponentModel;
 namespace _18oct.Services
 {
-    internal class TournamentMode : GameVarables
+    internal class TournamentMode
     {
         GameService gameService = new GameService();
         DuelService duelService = new DuelService();
+        GameVarables gVars = new GameVarables();
         Random random = new Random();
         Character playerClone;
         public bool StartTournament(ref Character player)
         {
             PClone(player);
-            for (int i = 0; i < opponentNames.Length; i++)
+            for (int i = 0; i < gVars.opponentNames.Length; i++)
             {
                 for (int c = 3; c > 0; c--)
                 {
@@ -33,9 +34,10 @@ namespace _18oct.Services
                         {
                             Console.Write("+");
                             for (int j = 0; j < Console.WindowWidth-2; j++) Console.Write("-");
-                            Console.WriteLine("+\n");
+                            Console.WriteLine("+");
                         }
                     }
+                    Console.WriteLine();
                     switch (c)
                     {
                         case 1:
@@ -58,26 +60,7 @@ namespace _18oct.Services
                     }
                     else Thread.Sleep(1000);
                 }
-                string oppName = gameService.chooseRandomName(opponentNames, usedNames);
-                usedNames[i] = oppName;
-                Character opponent = null;
-                switch (random.Next(3))
-                {
-                    case 0:
-                        opponent = new Worrior();
-                        break;
-                    case 1:
-                        opponent = new Archer();
-                        break;
-                    case 2:
-                        opponent = new Mage();
-                        break;
-                    default:
-                        break;
-                }
-                opponent.SetNPC(true);
-                opponent.SetRace(racesChar[random.Next(0, races.Length)]);
-                opponent.SetName(oppName);
+                Character opponent = gameService.RCG(gVars);
                 for (int j = 0; j < playerClone.Level; j++) opponent.Levelup();  // => Opponent level = Player level
                 //opponent.Health = 1; // test
                 if (!duelService.Duel(playerClone, opponent, false, true)) return false;
@@ -85,7 +68,7 @@ namespace _18oct.Services
             }
             player = playerClone;
             player.Health = player.MaxHealth;
-            for (int i = 0; i < usedNames.Length; i++) usedNames[i] = "";
+            for (int i = 0; i < gVars.usedNames.Length; i++) gVars.usedNames[i] = "";
             return true;
         }
         void PClone(Character player)

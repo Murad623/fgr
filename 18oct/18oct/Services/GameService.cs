@@ -1,10 +1,14 @@
 ﻿using _18oct.Classes.Base;
 using _18oct.Classes;
+using System;
+using System.ComponentModel;
+using _18oct.Services.BaseService;
 
 namespace _18oct.Services
 {
     public class GameService
     {
+        //public GameVarables gVars = new GameVarables();
         string playerName = string.Empty;
         
         public void PrintDeleyed(string? word = null, int delay = 100, bool dState = true, string[]? words = null) // Print letters with deley
@@ -291,6 +295,36 @@ namespace _18oct.Services
                 }
             }
             return name;
+        }
+        public Character RCG(GameVarables gVars, char race = 'N') // Random Character Generator
+        {
+            Random random = new Random();
+            Character character = null;
+            switch (random.Next(3))
+            {
+                case 0:
+                    character = new Worrior();
+                    break;
+                case 1:
+                    character = new Archer();
+                    break;
+                case 2:
+                    character = new Mage();
+                    break;
+                default:
+                    break;
+            }
+            character.SetName(chooseRandomName(gVars.opponentNames, gVars.usedNames));
+            character.SetNPC(true);
+            if (race != 'N') character.SetRace(race);
+            else character.SetRace(gVars.racesChar[random.Next(5)]);
+            return character;
+        }
+        public void CharAnonymizator(ref Character character) // Character Anonymization
+        {
+            string oppName = character.Name;
+            character.Name = "";
+            for (int i = 0; i < oppName.Length; i++) character.Name += "?";
         }
     }
 }
