@@ -7,7 +7,6 @@ namespace _16nov.Classes
         public override double GetArea(int r)
         {
             return r*r*Math.PI;
-            //throw new NotImplementedException();
         }
     }
 }

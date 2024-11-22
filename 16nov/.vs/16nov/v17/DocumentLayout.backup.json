@@ -42,9 +42,9 @@
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs",
               "RelativeDocumentMoniker": "16nov\\Classes\\Rectangle.cs",
-              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs",
-              "RelativeToolTip": "16nov\\Classes\\Rectangle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs*",
+              "RelativeToolTip": "16nov\\Classes\\Rectangle.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T03:01:50.766Z",
               "EditorCaption": ""
@@ -55,9 +55,9 @@
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs",
               "RelativeDocumentMoniker": "16nov\\Classes\\Circle.cs",
-              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs",
-              "RelativeToolTip": "16nov\\Classes\\Circle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs*",
+              "RelativeToolTip": "16nov\\Classes\\Circle.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T02:57:48.579Z",
               "EditorCaption": ""
@@ -70,7 +70,7 @@
               "RelativeDocumentMoniker": "16nov\\Classes\\Bases\\Shape.cs",
               "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Bases\\Shape.cs",
               "RelativeToolTip": "16nov\\Classes\\Bases\\Shape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T02:55:48.969Z",
               "EditorCaption": ""
@@ -85,8 +85,7 @@
               "RelativeToolTip": "16nov\\Classes\\Student.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T02:38:00.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T02:38:00.449Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "16nov\\Classes\\Calculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T02:29:15.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T02:29:15.756Z"
             },
             {
               "$type": "Document",
