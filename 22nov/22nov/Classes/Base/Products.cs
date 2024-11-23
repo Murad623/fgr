@@ -3,10 +3,10 @@
     internal abstract class Products
     {
         public string Name { get; set; }
-        public float Price { get; set; }
+        public double Price { get; set; }
         public int Count { get; set; }
         public bool onShop = false;
-        public float ChoosePrice(float newPrice, float oldPrice)
+        public double ChoosePrice(double newPrice, double oldPrice)
         {
             Console.WriteLine("Choose Price");
             Console.WriteLine($"O - Old({oldPrice}) | N - New({newPrice})");

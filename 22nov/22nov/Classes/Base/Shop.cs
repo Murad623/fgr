@@ -3,7 +3,7 @@
     internal class Shop
     {
         public Products[] ProductsArr;
-        public float TotalIncome;
+        public double TotalIncome;
         public string SellerName;
         public Shop(string cSellerName)
         {
@@ -87,14 +87,16 @@
                         product = ProductCreator('C');
                         if(ProductsArr != null) Array.Resize(ref ProductsArr, ProductsArr.Length + 1);
                         else ProductsArr = new Products[1];
-                        ProductsArr.Append(product);
+                        //ProductsArr.Append(product);
+                        ProductsArr[ProductsArr.Length - 1] = product;
                         loop = false;
                         break;
                     case ConsoleKey.T:
                         product = ProductCreator('T');
                         if (ProductsArr != null) Array.Resize(ref ProductsArr, ProductsArr.Length + 1);
                         else ProductsArr = new Products[1];
-                        ProductsArr.Append(product);
+                        //ProductsArr.Append(product);
+                        ProductsArr[ProductsArr.Length - 1] = product;
                         loop = false;
                         break;
                     case ConsoleKey.Escape:
@@ -109,100 +111,109 @@
         {
             Console.Clear();
             TopBar();
-            Console.WriteLine("Prodoct name : ");
-            string productName = Console.ReadLine();
-            int count;
-            while (true)
+            if (ProductsArr != null)
             {
-                try
+                Console.Write("Prodoct name : ");
+                string productName = Console.ReadLine();
+                bool isExist = false;
+                foreach (Products item in ProductsArr) if (item.Name == productName) isExist = true;
+                if (!isExist)
                 {
-
-                    Console.Clear();
-                    TopBar();
-                    Console.Write("Count : ");
-                    count = int.Parse(Console.ReadLine());
-                    break;
+                    Console.WriteLine("The product is not available in store");
+                    return;
                 }
-                catch (Exception)
+                int count;
+                while (true)
                 {
-                    Console.WriteLine("Number please");
-                    Thread.Sleep(2000);
-                }
-            }
-            for (int i = 0; i < ProductsArr.Length; i++)
-            {
-                if (ProductsArr[i].Name == productName)
-                {
-                    bool loop = true;
-                    while (loop)
+                    try
                     {
 
-                        if (ProductsArr[i].Count <= count)
+                        Console.Clear();
+                        TopBar();
+                        Console.Write("Count : ");
+                        count = int.Parse(Console.ReadLine());
+                        break;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Number please");
+                        Thread.Sleep(2000);
+                    }
+                }
+                for (int i = 0; i < ProductsArr.Length; i++)
+                {
+                    if (ProductsArr[i].Name == productName)
+                    {
+                        bool loop = true;
+                        while (loop)
                         {
-                            ProductsArr[i].Count -= count;
-                            TotalIncome += count * ProductsArr[i].Price;
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            TopBar();
-                            Console.WriteLine($"We have only {ProductsArr[i].Count}");
-                            Console.WriteLine("S - Sell all | C - Change Count | ESC - Return to menu");
-                            ConsoleKeyInfo key;
-                            bool loop2 = true;
-                            while (loop2)
+
+                            if (ProductsArr[i].Count >= count)
                             {
-                                key = Console.ReadKey();
-                                switch (key.Key)
+                                ProductsArr[i].Count -= count;
+                                TotalIncome += count * ProductsArr[i].Price;
+                                loop = false;
+                            }
+                            else
+                            {
+                                Console.Clear();
+                                TopBar();
+                                Console.WriteLine($"We have only {ProductsArr[i].Count}");
+                                Console.WriteLine("S - Sell all | C - Change Count | ESC - Return to menu");
+                                ConsoleKeyInfo key;
+                                bool loop2 = true;
+                                while (loop2)
                                 {
-                                    case ConsoleKey.S:
-                                        TotalIncome = ProductsArr[i].Count * ProductsArr[i].Price;
-                                        Products[] newProductArr = new Products[ProductsArr.Length-1];
-                                        for (int j = 0, k = 0; j < newProductArr.Length; j++)
-                                        {
-                                            if (j != i)
+                                    key = Console.ReadKey();
+                                    switch (key.Key)
+                                    {
+                                        case ConsoleKey.S:
+                                            TotalIncome += ProductsArr[i].Count * ProductsArr[i].Price;
+                                            ProductsArr[i].Count = 0;
+                                            loop = false;
+                                            loop2 = false;
+                                            break;
+                                        case ConsoleKey.C:
+                                            int newCount;
+                                            while (true)
                                             {
-                                                newProductArr[k] = ProductsArr[j];
-                                                k++;
+                                                try
+                                                {
+                                                    Console.Clear();
+                                                    TopBar();
+                                                    Console.Write("New count : ");
+                                                    newCount = int.Parse(Console.ReadLine());
+                                                    break;
+                                                }
+                                                catch (Exception)
+                                                {
+                                                    Console.WriteLine("Number please");
+                                                    Thread.Sleep(2000);
+                                                }
                                             }
-                                        }
-                                        ProductsArr = newProductArr;
-                                        loop = false;
-                                        loop2 = false;
-                                        break;
-                                    case ConsoleKey.C:
-                                        int newCount;
-                                        while (true)
-                                        {
-                                            try
-                                            {
-                                                Console.Clear();
-                                                TopBar();
-                                                Console.Write("New count : ");
-                                                newCount = int.Parse(Console.ReadLine());
-                                                break;
-                                            }
-                                            catch (Exception)
-                                            {
-                                                Console.WriteLine("Number please");
-                                                Thread.Sleep(2000);
-                                            }
-                                        }
-                                        loop2 = false;
-                                        if (newCount > ProductsArr[i].Count) break;
-                                        loop = false;
-                                        break;
-                                    case ConsoleKey.Escape:
-                                        loop = false;
-                                        loop2 = false;
-                                        break;
-                                    default:
-                                        break;
+                                            loop2 = false;
+                                            if (newCount > ProductsArr[i].Count) break;
+                                            loop = false;
+                                            break;
+                                        case ConsoleKey.Escape:
+                                            loop = false;
+                                            loop2 = false;
+                                            break;
+                                        default:
+                                            break;
+                                    }
                                 }
                             }
+                            if (ProductsArr[i].Count == 0) DeleteProduct(ref ProductsArr, ProductsArr[i]);
                         }
                     }
                 }
+            }
+            else
+            {
+                Console.WriteLine("The store is empty");
+                Console.WriteLine("ESC - Quit");
+                while (true) if (Console.ReadKey(true).Key == ConsoleKey.Escape) break;
             }
         }
         public Products ProductCreator(char type)
@@ -211,7 +222,7 @@
             TopBar();
             Console.Write("Product Name : ");
             string name = Console.ReadLine();
-            float price;
+            double price;
             while (true)
             {
                 try
@@ -219,7 +230,7 @@
                     Console.Clear();
                     TopBar();
                     Console.Write("Product Price : ");
-                    price = float.Parse(Console.ReadLine());
+                    price = double.Parse(Console.ReadLine());
                     break;
                 }
                 catch (Exception)
@@ -250,92 +261,114 @@
         }
         public void PrintProductList()
         {
-            int nameLength = 0;
-            int priceLength = 0;
-            int countLength = 0;
-            for (int i = 0; i < ProductsArr.Length; i++)
+            Console.Clear();
+            TopBar();
+            if(ProductsArr != null)
             {
-                if (ProductsArr[i].Name.Length > nameLength) nameLength = ProductsArr[i].Name.Length;
-                if (ProductsArr[i].Price.ToString().Length > nameLength) priceLength = ProductsArr[i].Price.ToString().Length;
-                if (ProductsArr[i].Count.ToString().Length > nameLength) countLength = ProductsArr[i].Count.ToString().Length;
-            }
-            if ("Name".Length > nameLength) nameLength = "Name".Length;
-            if ("Price".Length > nameLength) priceLength = "Price".Length;
-            if ("Count".Length > nameLength) countLength = "Count".Length;
-            for (int i = -1;i < ProductsArr.Length; i++)
-            {
-                if (i==-1)
+
+                int nameLength = 0;
+                int priceLength = 0;
+                int countLength = 0;
+                for (int i = 0; i < ProductsArr.Length; i++)
                 {
-                    for (int k = 0; k < 3; k++)
+                    if (ProductsArr[i].Name.Length > nameLength) nameLength = ProductsArr[i].Name.Length + 2 ;
+                    if (ProductsArr[i].Price.ToString().Length > priceLength) priceLength = ProductsArr[i].Price.ToString().Length + 2;
+                    if (ProductsArr[i].Count.ToString().Length > countLength) countLength = ProductsArr[i].Count.ToString().Length + 2;
+                }
+                if ("Name".Length > nameLength) nameLength = "Name".Length + 2;
+                if ("Price".Length > priceLength) priceLength = "Price".Length + 2;
+                if ("Count".Length > countLength) countLength = "Count".Length + 2;
+                for (int i = -1;i < ProductsArr.Length; i++)
+                {
+                    if (i==-1)
                     {
-                        if (k != 1)
+                        for (int k = 0; k < 3; k++)
                         {
-                            Console.Write("+");
-                            for (int j = 0; j < nameLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
-                            for (int j = 0; j < priceLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
-                            for (int j = 0; j < countLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
+                            if (k != 1)
+                            {
+                                Console.Write("+");
+                                for (int j = 0; j < nameLength; j++) Console.Write("-");
+                                Console.Write("+");
+                                for (int j = 0; j < priceLength; j++) Console.Write("-");
+                                Console.Write("+");
+                                for (int j = 0; j < countLength; j++) Console.Write("-");
+                                Console.Write("+\n");
+                            }
+                            else
+                            {
+                                int nameSpace = (nameLength - "Name".Length) / 2;
+                                int priceSpace = (priceLength - "Price".Length) / 2;
+                                int countSpace = (countLength - "Count".Length) / 2;
+                                Console.Write("|");
+                                for (int j = 0; j < nameSpace; j++) Console.Write(" ");
+                                Console.Write("Name");
+                                for (int j = 0; j < nameSpace + (nameLength % 2 != "Name".Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|");
+                                for (int j = 0; j < priceSpace; j++) Console.Write(" ");
+                                Console.Write("Price");
+                                for (int j = 0; j < priceSpace + (priceLength % 2 != "Price".Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|");
+                                for (int j = 0; j < countSpace; j++) Console.Write(" ");
+                                Console.Write("Count");
+                                for (int j = 0; j < countSpace + (countLength % 2 != "Count".Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|\n");
+                            }
                         }
-                        else
+                    }
+                    else
+                    {
+                        for (int k = 0, l = 0; k < ProductsArr.Length*2; k++)
                         {
-                            int nameSpace = (nameLength - "Name".Length) / 2;
-                            int priceSpace = (nameLength - "Price".Length) / 2;
-                            int countSpace = (nameLength - "Count".Length) / 2;
-                            Console.Write("|");
-                            for (int j = 0; j < nameSpace; j++) Console.Write(" ");
-                            Console.Write("Name");
-                            for (int j = 0; j < nameSpace; j++) Console.Write(" ");
-                            Console.Write("|");
-                            for (int j = 0; j < priceSpace; j++) Console.Write(" ");
-                            Console.Write("Price");
-                            for (int j = 0; j < priceSpace; j++) Console.Write(" ");
-                            Console.Write("|");
-                            for (int j = 0; j < countSpace; j++) Console.Write(" ");
-                            Console.Write("Count");
-                            for (int j = 0; j < countSpace; j++) Console.Write(" ");
-                            Console.Write("|");
+                            if (k%2 == 1)
+                            {
+                                Console.Write("+");
+                                for (int j = 0; j < nameLength; j++) Console.Write("-");
+                                Console.Write("+");
+                                for (int j = 0; j < priceLength; j++) Console.Write("-");
+                                Console.Write("+");
+                                for (int j = 0; j < countLength; j++) Console.Write("-");
+                                Console.Write("+\n");
+                            }
+                            else
+                            {
+                                int nameSpace = (nameLength - ProductsArr[l].Name.Length) / 2;
+                                int priceSpace = (nameLength - ProductsArr[l].Price.ToString().Length) / 2;
+                                int countSpace = (nameLength - ProductsArr[l].Count.ToString().Length) / 2;
+                                Console.Write("|");
+                                for (int j = 0; j < nameSpace; j++) Console.Write(" ");
+                                Console.Write(ProductsArr[l].Name);
+                                for (int j = 0; j < nameSpace + (nameLength % 2 != ProductsArr[l].Name.Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|");
+                                for (int j = 0; j < priceSpace; j++) Console.Write(" ");
+                                Console.Write(ProductsArr[l].Price);
+                                for (int j = 0; j < priceSpace + (priceLength % 2 != ProductsArr[l].Price.ToString().Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|");
+                                for (int j = 0; j < countSpace; j++) Console.Write(" ");
+                                Console.Write(ProductsArr[l].Count);
+                                for (int j = 0; j < countSpace + (countLength % 2 != ProductsArr[l].Count.ToString().Length % 2 ? 1 : 0); j++) Console.Write(" ");
+                                Console.Write("|\n");
+                                l++;
+                            }
                         }
                     }
                 }
-                else
+            }
+            else Console.WriteLine("The store is empty");
+            Console.WriteLine("ESC - Quit");
+            while (true) if (Console.ReadKey(true).Key == ConsoleKey.Escape) break;
+        }
+        public void DeleteProduct(ref Products[] prodArrRef, Products prod)
+        {
+            Products[] newProductArr = new Products[prodArrRef.Length - 1];
+            for (int j = 0, k = 0; j < newProductArr.Length; j++)
+            {
+                if (prodArrRef[j] != prod)
                 {
-                    for (int k = 0, l = 0; k < ProductsArr.Length*2; k++)
-                    {
-                        if (k%2 == 1)
-                        {
-                            Console.Write("+");
-                            for (int j = 0; j < nameLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
-                            for (int j = 0; j < priceLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
-                            for (int j = 0; j < countLength + 2; j++) Console.Write("-");
-                            Console.Write("+");
-                        }
-                        else
-                        {
-                            int nameSpace = (nameLength - ProductsArr[l].Name.Length) / 2;
-                            int priceSpace = (nameLength - ProductsArr[l].Price.ToString().Length) / 2;
-                            int countSpace = (nameLength - ProductsArr[l].Count.ToString().Length) / 2;
-                            Console.Write("|");
-                            for (int j = 0; j < nameSpace; j++) Console.Write(" ");
-                            Console.Write("Name");
-                            for (int j = 0; j < nameSpace; j++) Console.Write(" ");
-                            Console.Write("|");
-                            for (int j = 0; j < priceSpace; j++) Console.Write(" ");
-                            Console.Write("Price");
-                            for (int j = 0; j < priceSpace; j++) Console.Write(" ");
-                            Console.Write("|");
-                            for (int j = 0; j < countSpace; j++) Console.Write(" ");
-                            Console.Write("Count");
-                            for (int j = 0; j < countSpace; j++) Console.Write(" ");
-                            Console.Write("|");
-                            l++;
-                        }
-                    }
+                    newProductArr[k] = prodArrRef[j];
+                    k++;
                 }
             }
+            prodArrRef = newProductArr;
         }
     }
 }

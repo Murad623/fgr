@@ -5,7 +5,7 @@ namespace _22nov.Classes
     {
         bool defPrice;
         Products exTea;
-        public Tea(string cName, float cPrice, int cCount, Products[] ProductsArr)
+        public Tea(string cName, double cPrice, int cCount, Products[] ProductsArr)
         {
             if(ProductsArr != null)
             {
@@ -39,7 +39,7 @@ namespace _22nov.Classes
                     switch (key.Key)
                     {
                         case ConsoleKey.A:
-                            float choosenPrice = cPrice;
+                            double choosenPrice = cPrice;
                             if (defPrice) choosenPrice = ChoosePrice(cPrice, exTea.Price);
                             exTea.Price = choosenPrice;
                             exTea.Count += cCount;

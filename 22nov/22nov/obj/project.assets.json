@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murad\\source\\repos\\22nov\\22nov\\22nov.csproj",
+      "projectUniqueName": "C:\\Projects\\C#\\gfghub\\22nov\\22nov\\22nov.csproj",
       "projectName": "22nov",
-      "projectPath": "C:\\Users\\murad\\source\\repos\\22nov\\22nov\\22nov.csproj",
+      "projectPath": "C:\\Projects\\C#\\gfghub\\22nov\\22nov\\22nov.csproj",
       "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murad\\source\\repos\\22nov\\22nov\\obj\\",
+      "outputPath": "C:\\Projects\\C#\\gfghub\\22nov\\22nov\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

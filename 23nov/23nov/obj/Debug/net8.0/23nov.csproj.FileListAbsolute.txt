@@ -1,0 +1,15 @@
+C:\Projects\C#\gfghub\23nov\23nov\bin\Debug\net8.0\23nov.exe
+C:\Projects\C#\gfghub\23nov\23nov\bin\Debug\net8.0\23nov.deps.json
+C:\Projects\C#\gfghub\23nov\23nov\bin\Debug\net8.0\23nov.runtimeconfig.json
+C:\Projects\C#\gfghub\23nov\23nov\bin\Debug\net8.0\23nov.dll
+C:\Projects\C#\gfghub\23nov\23nov\bin\Debug\net8.0\23nov.pdb
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.AssemblyInfoInputs.cache
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.AssemblyInfo.cs
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.csproj.CoreCompileInputs.cache
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.sourcelink.json
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.dll
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\refint\23nov.dll
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.pdb
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\23nov.genruntimeconfig.cache
+C:\Projects\C#\gfghub\23nov\23nov\obj\Debug\net8.0\ref\23nov.dll
