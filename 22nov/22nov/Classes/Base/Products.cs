@@ -2,35 +2,9 @@
 {
     internal abstract class Products
     {
+        public string Type { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
         public int Count { get; set; }
-        public bool onShop = false;
-        public double ChoosePrice(double newPrice, double oldPrice)
-        {
-            Console.WriteLine("Choose Price");
-            Console.WriteLine($"O - Old({oldPrice}) | N - New({newPrice})");
-            bool oldOrNew = false;
-            ConsoleKeyInfo key;
-            bool loop = true;
-            while (loop)
-            {
-                key = Console.ReadKey(true);
-                switch (key.Key)
-                {
-                    case ConsoleKey.O:
-                        loop = false;
-                        break;
-                    case ConsoleKey.N:
-                        oldOrNew = true;
-                        loop = false;
-                        break;
-                    default:
-                        break;
-                }
-            }
-            if (oldOrNew) return newPrice;
-            else return oldPrice;
-        }
     }
 }
