@@ -385,7 +385,7 @@
                                 int countSpace = (countLength - "Count".Length) / 2;
                                 Console.Write("|");
                                 for (int j = 0; j < nameSpace; j++) Console.Write(" ");
-                                Console.Write("Nama");
+                                Console.Write("Name");
                                 for (int j = 0; j < nameSpace + (nameLength % 2 != "Name".Length % 2 ? 1 : 0); j++) Console.Write(" ");
                                 Console.Write("|");
                                 for (int j = 0; j < priceSpace; j++) Console.Write(" ");
