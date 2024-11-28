@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\3nov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\interfaces\\imove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\interfaces\\imove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|c:\\projects\\c#\\gfghub\\3nov\\3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43441A1F-7B50-485B-8428-F5336FE01B7E}|3nov\\3nov.csproj|solutionrelative:3nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Classes\\Player.cs",
               "RelativeDocumentMoniker": "3nov\\Classes\\Player.cs",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "iMove.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Interfaces\\iMove.cs",
               "RelativeDocumentMoniker": "3nov\\Interfaces\\iMove.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\3nov\\3nov\\Program.cs",
               "RelativeDocumentMoniker": "3nov\\Program.cs",

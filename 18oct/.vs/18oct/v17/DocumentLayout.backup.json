@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\18oct\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\services\\tournamentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\services\\tournamentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\services\\campaignmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\services\\campaignmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\services\\tournamentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\services\\tournamentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\classes\\base\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|solutionrelative:18oct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C49966B9-86F1-401E-ACC1-9621DD6A8505}|18oct\\18oct.csproj|c:\\projects\\c#\\gfghub\\18oct\\18oct\\services\\duelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameVarables.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Services\\BaseService\\GameVarables.cs",
               "RelativeDocumentMoniker": "18oct\\Services\\BaseService\\GameVarables.cs",
@@ -62,18 +62,17 @@
               "RelativeToolTip": "18oct\\Services\\BaseService\\GameVarables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:24:32.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T14:24:32.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TournamentMode.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Services\\TournamentMode.cs",
               "RelativeDocumentMoniker": "18oct\\Services\\TournamentMode.cs",
               "ToolTip": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Services\\TournamentMode.cs",
               "RelativeToolTip": "18oct\\Services\\TournamentMode.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T14:23:13.683Z",
               "EditorCaption": ""
@@ -86,7 +85,7 @@
               "RelativeDocumentMoniker": "18oct\\Services\\CampaignMode.cs",
               "ToolTip": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Services\\CampaignMode.cs",
               "RelativeToolTip": "18oct\\Services\\CampaignMode.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAQwJAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAQwAQBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T06:09:12.52Z",
               "EditorCaption": ""
@@ -101,12 +100,11 @@
               "RelativeToolTip": "18oct\\Services\\DuelService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:37:34.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:37:34.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Services\\GameService.cs",
               "RelativeDocumentMoniker": "18oct\\Services\\GameService.cs",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "18oct\\Services\\GameService.cs",
               "ViewState": "AgIAADYBAAAAAAAAAAAIwCoBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:12:17.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:12:17.202Z"
             },
             {
               "$type": "Document",
@@ -155,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Classes\\Base\\Character.cs",
               "RelativeDocumentMoniker": "18oct\\Classes\\Base\\Character.cs",
@@ -163,18 +160,17 @@
               "RelativeToolTip": "18oct\\Classes\\Base\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:38:09.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:38:09.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Program.cs",
               "RelativeDocumentMoniker": "18oct\\Program.cs",
               "ToolTip": "C:\\Projects\\C#\\gfghub\\18oct\\18oct\\Program.cs",
               "RelativeToolTip": "18oct\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T17:19:54.391Z",
               "EditorCaption": ""

@@ -1,0 +1,15 @@
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.AssemblyInfoInputs.cache
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.AssemblyInfo.cs
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.csproj.CoreCompileInputs.cache
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.sourcelink.json
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\bin\Debug\net8.0\AccountCreator.exe
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\bin\Debug\net8.0\AccountCreator.deps.json
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\bin\Debug\net8.0\AccountCreator.runtimeconfig.json
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\bin\Debug\net8.0\AccountCreator.dll
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\bin\Debug\net8.0\AccountCreator.pdb
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.dll
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\refint\AccountCreator.dll
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.pdb
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\AccountCreator.genruntimeconfig.cache
+C:\Projects\C#\gfghub\AccountCreator\AccountCreator\obj\Debug\net8.0\ref\AccountCreator.dll

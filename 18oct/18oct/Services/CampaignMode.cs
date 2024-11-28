@@ -254,16 +254,10 @@ namespace _18oct.Services
                             gameService.PrintDeleyed("The village chief :");
                             gameService.PrintDeleyed(" - Thanks for help. But now you must die, couse of saw a lot of things.");
                             //gameService.PrintDeleyed("Your allies are attacking you.");
-                            
-
                         }
                     }
                 }
             }
-            #endregion
-
-            #region End
-            Console.WriteLine(" ________  __    __   ______\r\n|   ____/ |  \\  |  | |   _  \\\r\n|  |      |   \\ |  | |  | \\  \\\r\n|  |__    |    \\|  | |  | |  |\r\n|   __|   |        | |  | |  |\r\n|  |      |  |\\    | |  | |  |\r\n|  |____  |  | \\   | |  |_/  /\r\n|_______\\ |__|  \\__| |______/");
             #endregion
             return false;
         }

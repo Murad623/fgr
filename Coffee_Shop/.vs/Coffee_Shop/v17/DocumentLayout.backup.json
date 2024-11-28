@@ -42,8 +42,7 @@
               "RelativeToolTip": "Coffee_Shop\\Classes\\Tea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:15:33.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:15:33.524Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Coffee_Shop\\Classes\\Coffee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:15:31.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:15:31.762Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Coffee_Shop\\Classes\\Base\\Products.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:15:29.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:15:29.969Z"
             },
             {
               "$type": "Document",
@@ -79,7 +76,7 @@
               "RelativeDocumentMoniker": "Coffee_Shop\\Classes\\Base\\Shop.cs",
               "ToolTip": "C:\\Projects\\C#\\gfghub\\Coffee_Shop\\Coffee_Shop\\Classes\\Base\\Shop.cs",
               "RelativeToolTip": "Coffee_Shop\\Classes\\Base\\Shop.cs",
-              "ViewState": "AgIAAJsBAAAAAAAAAAAAAHIBAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAmwIoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T11:15:29.277Z",
               "EditorCaption": ""
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Coffee_Shop\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:13:55.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:13:55.244Z"
             }
           ]
         }

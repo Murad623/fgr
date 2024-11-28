@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\C#\\gfghub\\16nov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|solutionrelative:16nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\classes\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|solutionrelative:16nov\\classes\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\classes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|solutionrelative:16nov\\classes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\classes\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|solutionrelative:16nov\\classes\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|solutionrelative:16nov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{452DEE9F-C80B-4FC0-A073-D3F059A35550}|16nov\\16nov.csproj|c:\\projects\\c#\\gfghub\\16nov\\16nov\\classes\\bases\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -42,21 +42,20 @@
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs",
               "RelativeDocumentMoniker": "16nov\\Classes\\Rectangle.cs",
-              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs*",
-              "RelativeToolTip": "16nov\\Classes\\Rectangle.cs*",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Rectangle.cs",
+              "RelativeToolTip": "16nov\\Classes\\Rectangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T03:01:50.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T03:01:50.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs",
               "RelativeDocumentMoniker": "16nov\\Classes\\Circle.cs",
-              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs*",
-              "RelativeToolTip": "16nov\\Classes\\Circle.cs*",
+              "ToolTip": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Classes\\Circle.cs",
+              "RelativeToolTip": "16nov\\Classes\\Circle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T02:57:48.579Z",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "16nov\\Classes\\Bases\\Shape.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T02:55:48.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T02:55:48.969Z"
             },
             {
               "$type": "Document",
@@ -101,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\C#\\gfghub\\16nov\\16nov\\Program.cs",
               "RelativeDocumentMoniker": "16nov\\Program.cs",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "16nov\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T02:27:37.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T02:27:37.284Z"
             }
           ]
         }

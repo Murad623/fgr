@@ -1,0 +1,12 @@
+﻿using AccountCreator.Classes;
+using AccountCreator.Interfaces;
+Console.Write("Full Name : ");
+string fullName = Console.ReadLine();
+Console.Clear();
+Console.Write("Email : ");
+string email = Console.ReadLine();
+Console.Clear();
+Console.Write("Password : ");
+string password = Console.ReadLine();
+IAccount user = new User(fullName,email,password);
+user.ShowInfo();

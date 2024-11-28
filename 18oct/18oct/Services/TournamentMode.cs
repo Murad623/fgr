@@ -1,7 +1,6 @@
 ﻿using _18oct.Classes;
 using _18oct.Classes.Base;
 using _18oct.Services.BaseService;
-using System.ComponentModel;
 namespace _18oct.Services
 {
     internal class TournamentMode
@@ -9,7 +8,7 @@ namespace _18oct.Services
         GameService gameService = new GameService();
         DuelService duelService = new DuelService();
         GameVarables gVars = new GameVarables();
-        Random random = new Random();
+        //Random random = new Random();
         Character playerClone;
         public bool StartTournament(ref Character player)
         {

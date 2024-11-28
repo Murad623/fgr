@@ -136,7 +136,7 @@
                 }
                 for (int i = 0; i < ProductsArr.Length; i++)
                 {
-                    if (ProductsArr[i].Name == productName)
+                    if (ProductsArr[i].Name == productName) // chek null
                     {
                         bool loop = true;
                         while (loop)

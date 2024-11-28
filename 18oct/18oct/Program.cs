@@ -8,12 +8,6 @@ DuelService duelService = new DuelService();
 CampaignMode campaignMode = new CampaignMode();
 TournamentMode tournamentMode = new TournamentMode();
 string[] messages = { "Hi Adventurer", "Welcome to 'Lumena', our magical world", "Create your character and start new adventure", "But careful, if you close the game, you have to start over" };
-//Character[] charachterTypes = { new Mage() }; // char test
-//Character[] charachterTypes = { new Worrior(), new Archer(), new Mage() };
-//char[] racesChar = { 'H', 'G', 'O', 'E', 'D' };
-//string[] races = { "Human", "Goblin", "Orc", "Elf", "Dwarf" };
-//string[] opponentNames = { "Kamil", "Mikayil", "Cavid", "Shamil", "Ferid", "Musa", "Pasha", "Shahin", "Arzu", "Leman", "Aydan", "Fidan", "Aysel", "Aygun", "Leyla", "Lale" };
-//string[] usedNames = { };
 for (int i = 0; i < messages.Length; i++) gameService.PrintDeleyed(messages[i]);
 gameService.WaitPress(true);
 player = gameService.CharacterCreator();
@@ -70,5 +64,8 @@ while (working) // Main
         }
     }
     else campaignMode.StartCampaign(player);
+    #region End
+    Console.WriteLine(" ________  __    __   ______\r\n|   ____/ |  \\  |  | |   _  \\\r\n|  |      |   \\ |  | |  | \\  \\\r\n|  |__    |    \\|  | |  | |  |\r\n|   __|   |        | |  | |  |\r\n|  |      |  |\\    | |  | |  |\r\n|  |____  |  | \\   | |  |_/  /\r\n|_______\\ |__|  \\__| |______/");
+    #endregion
     break;
 }
