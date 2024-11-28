@@ -1,0 +1,15 @@
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\bin\Debug\net8.0\AgeProblem.exe
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\bin\Debug\net8.0\AgeProblem.deps.json
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\bin\Debug\net8.0\AgeProblem.runtimeconfig.json
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\bin\Debug\net8.0\AgeProblem.dll
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\bin\Debug\net8.0\AgeProblem.pdb
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.AssemblyInfoInputs.cache
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.AssemblyInfo.cs
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.csproj.CoreCompileInputs.cache
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.sourcelink.json
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.dll
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\refint\AgeProblem.dll
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.pdb
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\AgeProblem.genruntimeconfig.cache
+C:\Projects\C#\gfghub\AgeProblem\AgeProblem\obj\Debug\net8.0\ref\AgeProblem.dll
